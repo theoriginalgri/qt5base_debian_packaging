@@ -19,7 +19,7 @@ gles2_architectures := armel armhf
 #endif
 
 ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(gles2_architectures)))
-        extra_configure_opts += -no-gui -no-opengl
+        extra_configure_opts += -no-gui -no-opengl -no-xcb -no-widgets
 else
         extra_configure_opts += -opengl desktop \
                                 -no-egl \
@@ -33,7 +33,7 @@ override_dh_auto_configure:
 	./configure -force-pkg-config -opensource \
 	            -confirm-license \
 	            -nomake tests \
-	            -skip examples
+	            -nomake examples \
 	            -prefix /opt/qt52 \
 		    -openssl \
 		    -no-pch \
