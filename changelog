@@ -1,0 +1,23 @@
+qt52base (5.2.1-1ubuntu1) precise; urgency=low
+
+  * Updated to 5.2.1 release
+
+ -- Stephan Binner <stephan.binner@basyskom.com>  Wed, 05 Feb 2014 20:00:00 +0100
+
+qt52base (5.2.0-1ubuntu1) precise; urgency=low
+
+  * Updated to final release
+
+ -- Stephan Binner <stephan.binner@basyskom.com>  Wed, 11 Dec 2013 20:00:00 +0100
+
+qt52base (5.2.0~rc1.1-1ubuntu2) precise; urgency=low
+
+  * Updated to RC1
+
+ -- Stephan Binner <stephan.binner@basyskom.com>  Thu, 21 Nov 2013 20:00:00 +0100
+
+qt52base (5.2.0~beta-1ubuntu1) precise; urgency=low
+
+  * Initial package
+
+ -- Stephan Binner <stephan.binner@basyskom.com>  Wed, 23 Oct 2013 20:00:00 +0100
