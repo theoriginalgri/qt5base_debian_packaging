@@ -2,8 +2,7 @@ Source: qt52base
 Section: libs
 Priority: extra
 Maintainer: Zoltán Balogh <zoltan@bakter.hu>
-Build-Depends: debhelper (>= 8.0.0), 
-               autotools-dev, 
+Build-Depends: debhelper (>= 8.0.0),
                libssl-dev,
                pkg-config
 Standards-Version: 3.9.2
